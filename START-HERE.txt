@@ -1,0 +1,29 @@
+HOW TO OPEN THE MOGADISHU STORY MAP (no GitHub, no coding)
+==========================================================
+
+You have ONE folder that contains everything needed. Just do this:
+
+1. INSTALL VS CODE (if not already installed)
+   Go to https://code.visualstudio.com and install it.
+
+2. ADD THE "LIVE SERVER" EXTENSION
+   Open VS Code. On the left, click the Extensions icon (four little squares).
+   Search:  Live Server   (by Ritwick Dey).  Click Install.
+
+3. OPEN THIS FOLDER IN VS CODE
+   In VS Code: File > Open Folder... and pick this "mogadishu-storymap-COMPLETE"
+   folder (the one this file is sitting in).
+
+4. PRESS PLAY
+   In the file list on the left, right-click "index.html" and choose
+   "Open with Live Server". Your browser opens and the story map runs.
+
+That's it. Scroll to move through the chapters. Click a "Deep Dive" box to expand it.
+
+-----------------------------------------------------------------------------
+Why Live Server and not just double-clicking index.html?
+The map's fonts need to be "served" to display correctly. Double-clicking the
+file opens it in a limited mode where the custom fonts may not load. Live Server
+serves it properly, so it looks right. You need to be online (the map tiles load
+from the internet).
+-----------------------------------------------------------------------------
